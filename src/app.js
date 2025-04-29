@@ -1,15 +1,3 @@
-//import "./style.css";
-
-/*import "./assets/img/rock.png";
-import "./assets/img/paper.png";
-import "./assets/img/scissors.png";
-import "./assets/img/lizard.png";
-import "./assets/img/spock.png";
-import "./assets/img/4geeks.ico";
-import "./assets/img/vs-png-web.png";*/
-
-console.log("app.js cargado correctamente");
-
 const imgJugador = document.getElementById("img-jugador");
 const imgOption = document.getElementById("img-option");
 const imgCPU = document.getElementById("img-cpu");
