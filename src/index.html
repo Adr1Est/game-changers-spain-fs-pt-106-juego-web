@@ -13,17 +13,45 @@
     
     <h1 class="text-light text-center mb-3">Rock | Paper | Scissors | Lizard | Spock</h1>
 
-    <div class="container-md bg-light rounded">
+    <div class="container-sm bg-light rounded">
 
-      <div class="row">
-        <div class="col-md-4 d-flex flex-column justify-content-center align-items-center p-4">
-          <img src="./assets/img/rock.png" class="img-fluid" alt="">
+      <!-- Zona de las imágenes -->
+      <div class="row p-3">
+        <div class="col-sm-4 d-flex flex-column justify-content-center align-items-center" id="ficha-jugador">
+          <img src="./assets/img/rock.png" class="img-fluid" width="250" alt="">
         </div>
-        <div class="col-md-4">
-          <img src="" class="img-fluid" alt="">
+        <div class="col-sm-4 d-flex flex-column justify-content-center align-items-center">
+          <img src="./assets/img/vs-png-web.png" class="img-fluid" width="150" alt="">
         </div>
-        <div class="col-md-4 d-flex flex-column justify-content-center align-items-center p-4">
-          <img src="./assets/img/paper.png" class="img-fluid" alt="">
+        <div class="col-sm-4 d-flex flex-column justify-content-center align-items-center" id="ficha-cpu">
+          <img src="./assets/img/paper.png" class="img-fluid" width="250" alt="">
+        </div>
+      </div>
+
+      <!-- Separador negro -->
+      <div class="container border-3 border-bottom border-dark"></div>
+
+      <!-- Indicador partida -->
+      <div class="row mt-1">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+          <p class="fs-1 m-0" id="indicador-estado">You Win!</p>
+        </div>
+      </div>
+
+      <!-- Zona del jugador -->
+      <div class="row p-1">
+        <div class="col-10 d-flex justify-content-center">
+          <select name="player-selector" class="form-select fs-5" aria-label="Player game selector" id="player-selection">
+            <option value="0" selected>Choose an option</option>
+            <option value="rock">Rock 🪨</option>
+            <option value="paper">Paper 📋</option>
+            <option value="scissors">Scissors ✂️</option>
+            <option value="lizard">Lizard 🦎</option>
+            <option value="spock">Spock 🖖</option>
+          </select>
+        </div>
+        <div class="col-2 d-flex justify-content-center" id="img-seleccionada">
+          <img src="./assets/img/rock.png" width="50" alt="">
         </div>
       </div>
 
