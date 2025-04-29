@@ -1,2 +1,5 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
+img {
+    filter: grayscale(100%);
+}
