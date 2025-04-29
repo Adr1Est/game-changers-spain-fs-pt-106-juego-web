@@ -7,6 +7,7 @@ import "./assets/img/scissors.png";
 import "./assets/img/lizard.png";
 import "./assets/img/spock.png";
 import "./assets/img/4geeks.ico";
+import "./assets/img/vs-png-web.png";
 
 
 window.onload = function () {
