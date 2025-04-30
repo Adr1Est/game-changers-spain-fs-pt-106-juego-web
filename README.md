@@ -1,6 +1,6 @@
 # Game Changers - Juego Web
 ## Piedra | Papel | Tijera | Lagarto | Spock
-- [¡Visita el proyecto!](https://game-changers-webgame.netlify.app/)
+<!-- WIP - [¡Visita el proyecto!](https://game-changers-webgame.netlify.app/) -->
 
 ### Grupo formado por:
 - KarolFrame
